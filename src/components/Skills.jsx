@@ -1,38 +1,7 @@
 import { motion } from 'framer-motion';
 import { Terminal, Database, Cloud, Blocks, Layout, Wrench } from 'lucide-react';
 
-const skillsData = [
-  {
-    category: "Frontend",
-    icon: <Layout className="text-blue-500" size={24} />,
-    items: ["React.js", "Vite.js", "HTML5", "CSS3", "Tailwind CSS", "Figma"]
-  },
-  {
-    category: "Backend",
-    icon: <Terminal className="text-green-500" size={24} />,
-    items: ["Python", "Flask", "Node.js", "Express.js", "RESTful APIs", "Microservices"]
-  },
-  {
-    category: "Database",
-    icon: <Database className="text-yellow-500" size={24} />,
-    items: ["MongoDB", "PostgreSQL", "Data Processing", "Mongoose"]
-  },
-  {
-    category: "Cloud & DevOps",
-    icon: <Cloud className="text-cyan-500" size={24} />,
-    items: ["Azure DevOps", "Azure App Service", "Azure Blob Storage", "CI/CD Pipelines", "Git"]
-  },
-  {
-    category: "Low-Code",
-    icon: <Blocks className="text-purple-500" size={24} />,
-    items: ["Mendix Studio Pro", "Microflows", "Domain Models", "Marketplace Connectors"]
-  },
-  {
-    category: "Specialized",
-    icon: <Wrench className="text-orange-500" size={24} />,
-    items: ["Teamcenter Integration", "Dashboard Development", "Power BI", "Data Analytics", "System Integration"]
-  }
-];
+import { skillsData } from '../data/content';
 
 const containerVariants = {
   hidden: { opacity: 0 },

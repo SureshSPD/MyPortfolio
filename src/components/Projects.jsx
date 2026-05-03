@@ -1,57 +1,7 @@
 import { motion } from 'framer-motion';
 import { Code2, Monitor, Layers } from 'lucide-react';
 
-const projects = [
-  {
-    title: "Enterprise License Management Platform",
-    status: "Present",
-    description: "Architected a full-stack solution to monitor and optimize high-value software licenses. Features include real-time analytics dashboards, role-based access control, and CI/CD integration.",
-    tags: ["React.js", "Express.js", "MongoDB", "Azure Blob", "Figma"],
-    icon: <Monitor className="text-cyan-500" size={20} />
-  },
-  {
-    title: "Cross-System Application Integration",
-    status: "Completed",
-    description: "Centralized integration solution connecting manufacturing systems, ticketing modules, and engineering platforms. Includes real-time risk analysis based on engineering progress and inventory.",
-    tags: ["Mendix", "ERP Systems", "Ticketing System", "PLM System"],
-    icon: <Layers className="text-purple-500" size={20} />
-  },
-  {
-    title: "PLM Data Integration System",
-    status: "Completed",
-    description: "Integrated low-code platforms with core Product Lifecycle Management systems using custom connectors. Developed features to retrieve and display item structures and BOM details within the application. Ensured secure API interactions.",
-    tags: ["Mendix", "PLM Data", "APIs", "Microflows"],
-    icon: <Code2 className="text-cyan-400" size={20} />
-  },
-  {
-    title: "Learning Management System",
-    status: "Completed",
-    description: "Full-featured LMS built to streamline organizational training. Features role-based access, module management for trainers, and dynamic progress dashboards for admins.",
-    tags: ["Mendix Studio Pro", "UI Components", "Domain Models"],
-    icon: <Monitor className="text-green-500" size={20} />
-  },
-  {
-    title: "Lifecycle Analytics Dashboard",
-    status: "Completed",
-    description: "Engineered a backend service to transform complex XML data into structured models. Embedded analytics in a React.js interface for dynamic product lifecycle management reporting.",
-    tags: ["React.js", "Flask", "Power BI", "REST APIs"],
-    icon: <Layers className="text-orange-500" size={20} />
-  },
-  {
-    title: "On-Premise to Cloud Data Migration",
-    status: "Completed",
-    description: "Conceptualized workflows in Figma and built modular React.js components. Constructed APIs to map and facilitate secure cloud data transformation, accelerating cloud migrations.",
-    tags: ["React.js", "Flask", "Figma", "Cloud Migration"],
-    icon: <Code2 className="text-teal-500" size={20} />
-  },
-  {
-    title: "Real-Time Transaction Dashboards",
-    status: "Completed",
-    description: "Delivered data-driven dashboards visualizing system transaction status in real-time. Built reusable frontend modules to monitor reliability with transaction retry management features.",
-    tags: ["React.js", "Dashboards", "UI Mockups"],
-    icon: <Monitor className="text-pink-500" size={20} />
-  }
-];
+import { projectsData as projects } from '../data/content';
 
 export default function Projects() {
   return (
