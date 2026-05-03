@@ -20,18 +20,18 @@ export default function Skills() {
   return (
     <section className="py-12 relative bg-slate-100/50 dark:bg-slate-900/50" id="skills">
       <div className="max-w-5xl mx-auto px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{ once: true, margin: "-100px" }}
           className="mb-8 md:mb-10"
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Technical Arsenal</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Technical Skills</h2>
           <div className="w-20 h-1.5 bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full" />
         </motion.div>
 
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="show"
@@ -39,7 +39,7 @@ export default function Skills() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {skillsData.map((skillGroup, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               variants={itemVariants}
               className="glass-card p-6 h-full transition-transform hover:-translate-y-1"
@@ -52,7 +52,7 @@ export default function Skills() {
               </div>
               <ul className="flex flex-wrap gap-2">
                 {skillGroup.items.map((skill, sIdx) => (
-                  <li 
+                  <li
                     key={sIdx}
                     className="px-3 py-1.5 bg-slate-100 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 text-sm rounded-lg border border-slate-200 dark:border-slate-600/50 font-medium"
                   >
