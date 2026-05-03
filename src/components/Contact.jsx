@@ -13,7 +13,7 @@ export default function Contact() {
           viewport={{ once: true, margin: "-100px" }}
           className="mb-8 md:mb-10 text-center"
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">{contactData.title}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">{contactData.title}</h2>
           <div className="w-20 h-1.5 bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full mx-auto" />
           <p className="mt-6 text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
             {contactData.description}

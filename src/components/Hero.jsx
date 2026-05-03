@@ -30,7 +30,7 @@ export default function Hero() {
             {heroData.firstName} <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-cyan-400 dark:from-cyan-400 dark:to-cyan-200">{heroData.lastName}</span>
           </motion.h1>
 
-          <motion.p variants={{ hidden: { opacity: 0, y: 15 }, show: { opacity: 1, y: 0 } }} className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl leading-relaxed font-light">
+          <motion.p variants={{ hidden: { opacity: 0, y: 15 }, show: { opacity: 1, y: 0 } }} className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl leading-relaxed font-light text-justify">
             {heroData.title}
           </motion.p>
 

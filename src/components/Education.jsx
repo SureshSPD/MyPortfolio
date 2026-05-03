@@ -15,7 +15,7 @@ export default function Education() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             viewport={{ once: true, margin: "-100px" }}
           >
-            <h2 className="text-3xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Education</h2>
+            <h2 className="text-4xl md:text-5xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Education</h2>
             <div className="w-16 h-1.5 bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full mb-8" />
 
             <div className="glass-card p-6 flex items-start gap-4 hover:-translate-y-1 hover:shadow-cyan-500/10 transition-all duration-300">
@@ -43,7 +43,7 @@ export default function Education() {
               transition={{ duration: 0.5, ease: "easeOut" }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <h2 className="text-3xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Certifications</h2>
+              <h2 className="text-4xl md:text-5xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Certifications</h2>
               <div className="w-16 h-1.5 bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full mb-8" />
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -65,7 +65,7 @@ export default function Education() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ delay: 0.1, duration: 0.5, ease: "easeOut" }}
             >
-              <h2 className="text-3xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Awards</h2>
+              <h2 className="text-4xl md:text-5xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Awards</h2>
               <div className="w-16 h-1.5 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full mb-6" />
 
               <div className="space-y-4">

@@ -13,7 +13,7 @@ export default function Experience() {
           viewport={{ once: true, margin: "-100px" }}
           className="mb-8 md:mb-10"
         >
-          <h2 className="text-3xl md:text-4xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Professional Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold font-['Outfit'] mb-4 text-slate-900 dark:text-white">Professional Experience</h2>
           <div className="w-20 h-1.5 bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-full" />
         </motion.div>
 
@@ -62,7 +62,7 @@ export default function Experience() {
                 >
                   <ul className="space-y-2 mt-4 md:mt-0 font-light">
                     {exp.bullets.map((bullet, bIdx) => (
-                      <li key={bIdx}>{bullet}</li>
+                      <li key={bIdx} className="text-justify">{bullet}</li>
                     ))}
                   </ul>
                 </motion.div>
